@@ -1,0 +1,37 @@
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div .category-buttons:hover{
+    background: #F4EBE2;
+    transition: 0.4s ease-in-out;
+}
+
+.search form{
+    border-bottom: 1px solid #EE2026;
+    padding-bottom: 5px;
+}
+.search input,
+.search button{
+    outline: none;
+    background: none;
+    border: none;
+}
+
+/* .search input{
+    font-size: 18px;
+} */
+
+.search input::placeholder{
+    color: #000;
+    font-weight: 100;
+}
